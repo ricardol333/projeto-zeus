@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#titulo-menusuperior{
+    margin-left: 100px;
+    color: white;
+    font-size: 50px;
+    
+  
+}
+
+#texto-menusuperior{
+    margin-left: 100px;
+    margin-top: 25px;
+    color: white;
+    font-size: 19px;
+    
+}
+    
+#menusuperior{
+    background-color: #303030;
+    height: 250px;
+    width: 1440px;
+}
+
+
+#menuinformacional{
+    grid-auto-flow: column;
+    columns: auto;
+    display: grid;
+
+}
+
+.icone{
+    margin: 0px 0px 0px 70px;
+    padding: 25px;
+}
+
+.textoinfo{
+    grid-column: auto;
+    columns: flex;
+}
+
+#menuimagens{
+    grid-auto-flow: column;
+    columns: auto;
+    display: grid;
+}
+.imagens{
+    margin: 0px 0px 50px 0px;
+    padding: 25px;
+}
+.secaoimagens{
+    grid-column: auto;
+    columns: flex;
+}
+
+#arquiteto{
+    margin-top: 200px;
+    
+}
+
+#formulario{
+    background-color: #303030;
+    height: 380px;
+  
+    text-align: center;
+}
+
+#titulo-formulario{
+    color: white;
+    margin-bottom: 30px;
+   
+}
+
+input{
+    Width: 300px;
+    Height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+    
+
+}
+
+
+button{
+    background-color: #C07212;
+    border-radius: 5px;
+    border: 0px;
+    Height: 50px;
+    Width: 286px;
+    color: #EAECE5;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: #C07212;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #141414;
+    transition-duration: 0.5s;
+    
+}
